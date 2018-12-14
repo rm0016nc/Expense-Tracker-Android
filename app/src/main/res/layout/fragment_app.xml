@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/eighteen_sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/time"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/budget"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/time"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/food"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/time"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="148dp"
+        android:text="@string/miscellaneous"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/foodtxt"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="-6dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:background="@drawable/txtview"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/housetxt"
+        android:layout_width="153dp"
+        android:layout_height="43dp"
+        android:layout_alignEnd="@+id/foodtxt"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/txtview"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/mistxt"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:background="@drawable/txtview"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="196dp"
+        android:text="@string/addbtn" />
+
+    <Button
+        android:id="@+id/trackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addbtn"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/addbtn"
+        android:text="@string/trackBtn" />
+
+    <TextView
+        android:id="@+id/budget"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="273dp"
+        android:textSize="@dimen/eighteen_SP" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginBottom="430dp"
+        android:text="@string/deletebtn" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="429dp"
+        android:text="@string/updateBtn" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginBottom="508dp"
+        android:text="@string/entry_no"
+        android:textSize="@dimen/text_eighteen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/change"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginBottom="498dp"
+        android:background="@drawable/txtview"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/foodtxt"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="-21dp"
+        android:layout_toEndOf="@+id/foodtxt"
+        android:text="*"
+        android:textColor="@color/red" />
+
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toEndOf="@+id/mistxt"
+        android:text="*"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginBottom="-102dp"
+        android:textColor="@color/red"
+        android:text="*" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/mon_week"
+        android:textSize="@dimen/monthly_eighteensp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

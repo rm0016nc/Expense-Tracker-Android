@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">365Project2</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="budget">Budget</string>
+    <string name="food">Food</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="addbtn">add</string>
+    <string name="trackBtn">Track</string>
+    <string name="deletebtn">Delete entry</string>
+    <string name="updateBtn">Change entry</string>
+    <string name="entry_no">Entry No.</string>
+    <string name="info_of_me">Hi, I\'m Kamali and I\'m 23 years old. I was born and raised in Kathmandu, Nepal and I came to United Stated to pursue my bachelor’s degree in the IT major. I like to try different foods, authentic ones and I plan to travel different parts of the world to try their local cuisine.</string>
+    <string name="blue_theme">Change theme to blue</string>
+    <string name="default_theme">Change theme to normal</string>
+    <string name="mon_week">Monthly/Weekly</string>
+</resources>

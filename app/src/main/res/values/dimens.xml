@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="eighteen_SP">18sp</dimen>
+    <dimen name="text_eighteen">18sp</dimen>
+    <dimen name="monthly_eighteensp">18sp</dimen>
+</resources>
